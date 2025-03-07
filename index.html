@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="bg-blue-50 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10 one">
+        <h1>Nostra</h1>
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+        </svg>
+        <ul class="gap-10 text-gray-600 hidden md:flex">
+            <li><a href="index.html" class="hover:underline hover:text-black">Home</a></li>
+            <li><a href="#" class="hover:underline hover:text-black">New Arrival</a></li>
+            <li><a href="#" class="hover:underline hover:text-black">Most Wanted</a></li>
+            <li><a href="collection.html" class="hover:underline hover:text-black">Collection</a></li>
+            <li><a href="#" class="hover:underline hover:text-black">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+
+    <!-- Mobile Details Section -->
+    <div id="mobile-list" class="p-5"></div>
+
+    <script type="module">
+        import { getMobileDetails } from './getMobileDetails.js';
+        getMobileDetails();
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+    "devices": [
+        {
+            "img": "https://i5.walmartimages.com/seo/Verizon-iPhone-15-Pro-Max-256GB-Natural-Titanium_43b58742-b6ad-491a-a795-e6c2eb6bcc6f.d6fa026332e1941b129f607c592844ab.jpeg",
+            "brand": "Apple",
+            "model": "iPhone 15 Pro",
+            "release_year": 2023,
+            "display_size": "6.1 inches",
+            "processor": "A17 Pro",
+            "RAM": "8GB",
+            "storage": "128GB/256GB/512GB/1TB",
+            "battery": "3274mAh",
+            "price_range": "₹1,30,000 - ₹1,80,000"
+        },
+        {
+            "img": "https://cdn1.smartprix.com/rx-izLSMVlI0-w1200-h1200/zLSMVlI0.jpg",
+            "brand": "Samsung",
+            "model": "Galaxy S23 Ultra",
+            "release_year": 2023,
+            "display_size": "6.8 inches",
+            "processor": "Snapdragon 8 Gen 2",
+            "RAM": "12GB",
+            "storage": "256GB/512GB/1TB",
+            "battery": "5000mAh",
+            "price_range": "₹1,20,000 - ₹1,50,000"
+        }
+    ]
+}

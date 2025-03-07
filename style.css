@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poppins', sans-serif;
+  }
+  .product-main{
+    display: flex;
+    gap:20px ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .product-details-1{
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .product-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .product-details-1 button{
+    border: 0.5px solid black;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  /* Popup style */
+
+  #mobile-list{
+   display : flex;
+   flex-direction: row;
+    justify-content: center; 
+}
+
+
